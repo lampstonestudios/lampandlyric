@@ -11,9 +11,9 @@ Lamp & Lyric is a private, offline-first song library and practice reader publis
 
 ## Data stored on your device
 
-The app stores songs you create or import, song edits, favorites, tags, setlists, practice and display preferences, viewing history, and reference-track information in private app storage. Local reference-track files remain on your device. The app does not upload audio files.
+The app stores songs you create or import, song edits, favorites, tags, setlists, practice and display preferences, viewing history, and reference-track information in private app storage. Local reference-track files remain on your device. The app does not upload local audio or MIDI files.
 
-If Android system backup is enabled, Android may back up a compact personal-data snapshot to your Google account for device replacement or reinstall recovery. That snapshot includes My Songs, current custom edits, favorites, tags, ordered setlists, synchronizable preferences, and web reference-track links. It excludes imported songbook originals, full edit history, viewing history, diagnostics, caches, local file links, and audio files.
+If Android system backup is enabled, Android may back up a compact personal-data snapshot to your Google account for device replacement or reinstall recovery. That snapshot includes My Songs, current custom edits, favorites, tags, ordered setlists, synchronizable preferences, and web reference-track links. It excludes imported songbook originals, full edit history, viewing history, diagnostics, caches, local file links, and local audio or MIDI files.
 
 You can also create a manual personal backup and choose where to save or share it. Lamp & Lyric does not control copies you export.
 
@@ -21,7 +21,7 @@ You can also create a manual personal backup and choose where to save or share i
 
 If you choose to create or use an account, Google Firebase Authentication processes your email address or Google sign-in credential and assigns an account identifier. Lamp & Lyric stores your personal layer in Google Cloud Firestore under that identifier so it can sync across your devices.
 
-The synchronized personal layer includes My Songs, current custom edits, favorites, tags, ordered setlists, synchronizable preferences, web reference-track links, and deletion records needed for synchronization. Imported songbook originals, full edit history, viewing history, local file links, and audio files are not synchronized.
+The synchronized personal layer includes My Songs, current custom edits, favorites, tags, ordered setlists, synchronizable preferences, web reference-track links, and deletion records needed for synchronization. Imported songbook originals, full edit history, viewing history, local file links, and local audio or MIDI files are not synchronized.
 
 Lamp & Lyric does not provide public profiles or share song content with other users.
 
